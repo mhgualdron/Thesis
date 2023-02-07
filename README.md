@@ -1,5 +1,11 @@
 # <span style="color:royalblue"> Thesis </span>
 
-<p> Trabajo de grado para optar por el título de geólogo en la Universidad Nacional de Colombia.
-Texto publicado en ResearchGate disponible en:
-https://www.researchgate.net/publication/367524836_Reanalisis_de_la_variabilidad_temporal_de_la_precipitacion_y_la_temperatura_en_Colombia_a_partir_del_modelamiento_global_ERA5 </p>
+## Trabajo de grado para optar por el título de geólogo en la Universidad Nacional de Colombia.
+### Objetivo:
+Plantear el primer reanálisis / análisis secundario de la precipitación total mensual y temperaturas máximas y mínimas mensules haciendo el proceso completo de Ciencia de Datos: 
+* ETL: Formatos NETCDF obtenidos de la [página oficial del Insituto Copernicus](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels) y su comparación respectiva con los datos regionales meteorológicos del [Instituto de Estudios Ambientales y Atmosféricos IDEAM](https://dhime.ideam.gov.co/atencionciudadano/) cuyo formato correspondiente es archivos tipo *.csv* manejados con librerías *Pandas, netcdf4*
+* Modelamiento estadístico: Cálculos de correlación, distancia entre curvas y mapas de las estaciones comparadas por medio de librerías *pandas, numpy, scikit-learn, scipy, matplotlib, seaborn, cartopy*.
+* Conclusiones y publicación: El archivo correspondiente a la [publicación del texto en ResearchGate](https://www.researchgate.net/publication/367524836_Reanalisis_de_la_variabilidad_temporal_de_la_precipitacion_y_la_temperatura_en_Colombia_a_partir_del_modelamiento_global_ERA5) se realiza siguiendo plantillas institucionales para la generación automática de incisos del trabajo de grado. 
+
+
+*Nota: La aprobación del texto ha sido verificada y calificada por el director [PhD Germán Andrés Prieto Gómez](http://ciencias.bogota.unal.edu.co/menu-principal/la-facultad/directorio-docente/?tx_unaldirectorio_contactlist%5Bperson%5D=206&tx_unaldirectorio_contactlist%5Baction%5D=show&tx_unaldirectorio_contactlist%5Bcontroller%5D=Person&cHash=ced2fcd52a1da0b08f5f9342ef4f93d3)[,-GitHub asociado-,](https://github.com/gaprieto?tab=repositories) y el profesor [PhD Daniel Hernandez Deckers](http://ciencias.bogota.unal.edu.co/departamentos/departamento-de-geociencias/directorio-docente/?tx_unaldirectorio_contactlist%5Bperson%5D=179&tx_unaldirectorio_contactlist%5Baction%5D=show&tx_unaldirectorio_contactlist%5Bcontroller%5D=Person&cHash=d5f2de2466c81df61e7b75aacda94a1b)*
